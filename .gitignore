@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Build output
+.next
+dist
+out
+
+# Env files (secrets - never commit!)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
